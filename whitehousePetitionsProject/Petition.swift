@@ -1,0 +1,15 @@
+//
+//  Petition.swift
+//  whitehousePetitionsProject
+//
+//  Created by Alperaslan on 7.11.2023.
+//
+
+import Foundation
+
+
+struct Petition: Codable {
+    var title: String
+    var body: String
+    var signatureCount: Int
+}
